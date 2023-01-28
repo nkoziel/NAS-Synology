@@ -44,14 +44,11 @@ If all goes well you should see the message:
 
 > Done. Please add your user to the Docker group in the Synology GUI and reboot your NAS.
 
-### under progress ###
+### Add your user to docker group in DSM interface ###
+
+<img width="1243" alt="image" src="https://user-images.githubusercontent.com/61791981/215273564-ef207f9a-80a8-433c-a7a1-93ce523082b6.png">
 
 
 
 
-script to install and configure docker on a DS218 synology.
-Fork from https://gist.github.com/ta264
-Updated with the last version of docker
 
-get-docker.sh to download docker binaries, install and configure
-run.sh to run a container for docker-compose command
