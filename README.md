@@ -9,14 +9,23 @@ Trying to bypass that by install aarch64 docker binaries using direct ssh connec
 Most of the data is coming from https://gist.github.com/ta264 and https://wiki.servarr.com/docker-arm-synology
 I did my own repo to handle versionning and review the code/script myself.
 
+To help understand what is done you can also read this :
+https://dev.to/behainguyen/synology-ds218-unsupported-docker-installation-and-usage-2g1n
+
+
 ### Activate ssh on your NAS and get root ###
 1) On your DSM interface go to the parameters / Terminal & SNMP
 2) Check activate ssh access box
+
+<img width="1370" alt="image" src="https://user-images.githubusercontent.com/61791981/215271153-a2917371-10a1-4ac5-ba5f-7675da348506.png">
+
+
 3) Open a powershell terminal and run this commands: 
 
 ``` ssh user@yourNasIP -p 22 ```
 
 type yes
+
 type your password
 
 to get root :
@@ -26,7 +35,6 @@ to get root :
 Expected outcome :
 
 <img width="363" alt="image" src="https://user-images.githubusercontent.com/61791981/215270939-5f3dd7a8-862b-47e8-be9f-c785d5368f93.png">
-
 
 ### Installation of docker and configuration ###
 
