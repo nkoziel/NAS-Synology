@@ -53,7 +53,7 @@ echo "Creating docker group"
 synogroup --add docker root
 
 echo "Installing docker compose"
-curl -L --fail https://gist.githubusercontent.com/ta264/af20c367aafa63795c3104d4b0c8b148/raw/4f6d257c026596cfce1c9052d9ac426a50e9f205/run.sh -o /usr/local/bin/docker-compose
+curl -L --fail https://raw.githubusercontent.com/nkoziel/NAS-Synology/main/run.sh -o /usr/local/bin/docker-compose
 chmod +x /usr/local/bin/docker-compose
 
 echo "Starting docker"
