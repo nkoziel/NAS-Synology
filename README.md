@@ -21,12 +21,15 @@ type your password
 
 to get root :
 
-```` sudo -i ````
+``` sudo -i ```
 
 ### Installation of docker and configuration ###
 
-`` curl https://gist.githubusercontent.com/ta264/2b7fb6e6466b109b9bf9b0a1d91ebedc/raw/b76a28d25d0abd0d27a0c9afaefa0d499eb87d3d/get-docker.sh | sh ``
+``` curl https://raw.githubusercontent.com/nkoziel/NAS-Synology/main/get-docker.sh | sh ```
 
+If all goes well you should see the message:
+
+> Done. Please add your user to the Docker group in the Synology GUI and reboot your NAS.
 
 ### under progress ###
 
