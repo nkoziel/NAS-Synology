@@ -50,5 +50,24 @@ If all goes well you should see the message:
 
 > Reboot your NAS
 
+### Build a portainer container ###
+```
+cd /volume1/@docker/portainer
+docker-compose up -d
+```
+Expected outcome : 
+
+<img width="362" alt="image" src="https://user-images.githubusercontent.com/61791981/215274868-7a113544-668f-479f-8033-171e0b237950.png">
+
+Then go to the portainer homepage to configure it : 
+
+in your browser : youNasIP:9000
+
+Setup your admin account 
+
+Portainer is now working :
+
+
+
 
 
