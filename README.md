@@ -14,12 +14,12 @@ I did my own repo to handle versionning and review the code/script myself.
 2) Check activate ssh access box
 3) Open a powershell terminal and run this commands: 
 
-ssh user@yourNasIP -p 22
+``` ssh user@yourNasIP -p 22 ```
 type yes
 type your password
 to get root 
 
-sudo -i
+```` sudo -i ````
 
 ### Installation of docker and configuration ###
 
