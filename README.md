@@ -23,6 +23,11 @@ to get root :
 
 ``` sudo -i ```
 
+Expected outcome :
+
+<img width="363" alt="image" src="https://user-images.githubusercontent.com/61791981/215270939-5f3dd7a8-862b-47e8-be9f-c785d5368f93.png">
+
+
 ### Installation of docker and configuration ###
 
 ``` curl https://raw.githubusercontent.com/nkoziel/NAS-Synology/main/get-docker.sh | sh ```
