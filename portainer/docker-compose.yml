@@ -1,0 +1,13 @@
+version: '2'
+
+services:
+  portainer:
+    image: portainer/portainer
+    restart: unless-stopped
+    network_mode: host
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - portainer_data:/data
+
+volumes:
+  portainer_data:
