@@ -6,7 +6,7 @@ services:
     restart: unless-stopped
     network_mode: host
     environment:
-      - WEB_PORT=8080
+      WEB_PORT=8080
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
       - pihole_data:/data
