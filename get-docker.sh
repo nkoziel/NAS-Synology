@@ -56,6 +56,13 @@ echo "Installing docker compose"
 curl -L --fail https://raw.githubusercontent.com/nkoziel/NAS-Synology/main/run.sh -o /usr/local/bin/docker-compose
 chmod +x /usr/local/bin/docker-compose
 
+echo "Creating portainer working directory"
+mkdir -p "$DOCKER_DIR"/portainer
+curl -L --fail https://raw.githubusercontent.com/nkoziel/NAS-Synology/main/portainer/docker-compose.yml -o "$DOCKER_DIR"/portainer/docker-compose.yml
+echo "Creating pihole working directory"
+mkdir -p "$DOCKER_DIR"/pihole
+curl -L --fail https://raw.githubusercontent.com/nkoziel/NAS-Synology/main/pihole/docker-compose.yml -o "$DOCKER_DIR"/pihole/docker-compose.yml
+
 echo "Starting docker"
 /usr/local/etc/rc.d/docker.sh start
 
