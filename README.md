@@ -48,7 +48,7 @@ If all goes well you should see the message:
 
 <img width="1243" alt="image" src="https://user-images.githubusercontent.com/61791981/215273564-ef207f9a-80a8-433c-a7a1-93ce523082b6.png">
 
-
+> Reboot your NAS
 
 
 
