@@ -65,7 +65,11 @@ in your browser : youNasIP:9000
 
 Setup your admin account 
 
-Portainer is now working :
+Portainer is now working and should ask to setup the admin password:
+
+<img width="1710" alt="image" src="https://user-images.githubusercontent.com/61791981/215311158-cb2d81a3-3d42-4811-ad4a-6c6b75dff490.png">
+
+
 
 
 
