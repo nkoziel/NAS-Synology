@@ -52,6 +52,7 @@ If all goes well you should see the message:
 
 ### Build a portainer container ###
 ```
+sudo -i
 cd /volume1/@docker/portainer
 docker-compose up -d
 ```
@@ -72,7 +73,7 @@ Portainer is now working and should ask to setup the admin password:
 Now if you want to build pihole image and start a container:
 
 ```
-cd /volume1/@docker/portainer
+cd /volume1/@docker/pihole
 docker-compose up -d
 ```
 expected outcome : 
