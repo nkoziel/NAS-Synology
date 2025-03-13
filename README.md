@@ -80,8 +80,7 @@ expected outcome :
 
 <img width="361" alt="image" src="https://user-images.githubusercontent.com/61791981/215328522-7423f92c-aa47-4735-b55e-3a0228e52ca6.png">
 
-You can now access your pihole homepage using `YourNasIP:8888/admin` url
-
+You can now access your pihole homepage using `YourNasIP:8080/admin` url
 
 
 
