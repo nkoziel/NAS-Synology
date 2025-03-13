@@ -80,6 +80,12 @@ expected outcome :
 
 <img width="361" alt="image" src="https://user-images.githubusercontent.com/61791981/215328522-7423f92c-aa47-4735-b55e-3a0228e52ca6.png">
 
+### adjust-readme-network-info ###
+You can now access your pihole homepage using `YourNasIP:8080/admin` url
+
+### Networking ###
+It should be **strongly** noted that this docker installation **only supports host network drivers** (https://docs.docker.com/engine/network/drivers/host/). Any port bindings via `-p` will get ignored and will not work. You need to make sure to use `--network host` when starting your containers. Also ensure that no existing services are already running on the port you want to use for your container. 
+=======
 You can now access your pihole homepage using `YourNasIP:8080/admin` url
 
 
